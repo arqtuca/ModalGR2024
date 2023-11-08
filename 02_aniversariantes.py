@@ -2,7 +2,6 @@ from datetime import datetime
 import calendar
 import locale
 
-# Defina o idioma como português
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
 # Função para verificar se a data de nascimento está no mês atual
