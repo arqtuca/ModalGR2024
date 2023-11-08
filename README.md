@@ -1,32 +1,32 @@
-# ModalGR2024
-Desafio Prático – Processo de Formação ModalGR 2024
+# Exercícios Práticos para o Processo Seletivo de Formação ModalGR 2024
 
-# Apresentação - Criptografia Simples em Python
+Olá, sou Arthur Rodrigues, e gostaria de apresentar a você os códigos de criptografia, aniversariantes do mês e simulação de empréstimo que desenvolvi.
 
-Olá, sou [Seu Nome], e gostaria de apresentar a você o código de criptografia que desenvolvi para proteger as senhas no nosso projeto da ModalGR. 
+## 01 - Criptografia
 
-## O Que Fizemos
+Neste exercício, foi criado um sistema de criptografia em Python. A chave secreta foi definida como `#modalGR#GPTW#top#maiorEmpresaTecnologia#baixadaSantista`. Foram implementados três métodos de criptografia: AES, XOR e Base64.
 
-Nosso desafio era criar um sistema de criptografia para as senhas, garantindo que elas fossem armazenadas de forma segura, mas ainda pudessem ser recuperadas quando necessário. Para isso, utilizamos uma única chave secreta para criptografar e descriptografar as senhas.
+- AES: Utiliza a biblioteca `cryptography` para criptografar o texto com uma chave Fernet gerada a partir da chave secreta.
+- XOR: Realiza uma operação XOR entre a chave secreta e o texto.
+- Base64: Utiliza a codificação Base64 para criptografar o texto.
 
-## Técnicas de Criptografia
+O código também inclui exemplos de uso para criptografar e descriptografar senhas.
 
-No código, você encontrará três técnicas de criptografia aplicadas às senhas:
+## 02 - Aniversariantes do Mês
 
-1. **AES (Advanced Encryption Standard)**: Utilizamos a biblioteca `cryptography` para criptografar as senhas usando o algoritmo AES. Este é um método de criptografia simétrica que garante a segurança dos dados.
+Neste exercício, foi criada uma aplicação em Python para gerar uma lista de aniversariantes do mês corrente a partir de um arquivo de dados dos consultores da ModalGR. O usuário pode escolher o mês desejado e, se houver aniversariantes, um novo arquivo de texto é gerado com os dados dos aniversariantes.
 
-2. **XOR**: Implementamos um método simples de criptografia usando a operação XOR (ou exclusivo). Embora seja uma técnica básica, ilustra como os dados podem ser obscurecidos de forma simples.
+OBS: Também criei um tratamento para quando não existir aniversariantes no mês, aprensentando a informação "Nenhum aniversariante encontrado para o mês de {nome_mes}. Nenhum arquivo foi criado."
 
-3. **Base64**: Além disso, você verá como podemos utilizar a codificação Base64 para ocultar as senhas. Este método é amplamente usado para codificar dados em formato de texto.
+## 03 - Simulação de Empréstimo
 
-## Como Usar
+Neste exercício, foi desenvolvido um programa de simulação de empréstimo para colaboradores da ModalGR. Os colaboradores com mais de 5 anos de casa podem simular um empréstimo de até 2 vezes o valor do seu salário, desde que o valor seja múltiplo de 2.
 
-Para usar o código, basta fornecer a senha original como entrada para as funções correspondentes a cada método de criptografia. Os resultados são senhas criptografadas, que podem ser armazenadas com segurança.
+O programa permite que o colaborador escolha entre receber o empréstimo em notas de maior valor, notas de menor valor ou uma combinação de ambas. O valor do empréstimo é calculado com base no salário do colaborador e nas opções escolhidas.
 
-## Entre em Contato
+Se o colaborador não atender aos requisitos mínimos de adesão ao programa de empréstimo ou inserir um valor de empréstimo que não seja múltiplo de 2, o programa exibirá uma mensagem apropriada.
 
-Se você tiver alguma dúvida ou sugestões de melhorias para o código, fique à vontade para entrar em contato comigo. Estou animado para colaborar e tornar nossas soluções de segurança ainda melhores!
+Agradeço a oportunidade.
 
-Aproveite explorando o nosso código de criptografia e lembre-se de manter a chave secreta segura! 🔐
 
 
