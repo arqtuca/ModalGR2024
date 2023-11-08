@@ -1,0 +1,11 @@
+Nome Completo|Email|Data de Nascimento
+João Silva|joao.silva@email.com|1990-05-15
+Maria Souza|maria.souza@email.com|1988-12-03
+Carlos Santos|carlos.santos@email.com|1995-03-20
+Ana Oliveira|ana.oliveira@email.com|1989-08-10
+Pedro Alves|pedro.alves@email.com|1992-06-25
+Luana Fernandes|luana.fernandes@email.com|1987-04-18
+Rafaela Pereira|rafaela.pereira@email.com|1991-02-09
+Fernando Lima|fernando.lima@email.com|1986-11-30
+Lucas Barbosa|lucas.barbosa@email.com|1994-09-12
+Mariana Rocha|mariana.rocha@email.com|1993-07-08
