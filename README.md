@@ -16,7 +16,7 @@ O código também inclui exemplos de uso para criptografar e descriptografar sen
 
 Neste exercício, foi criada uma aplicação em Python para gerar uma lista de aniversariantes do mês corrente a partir de um arquivo de dados dos consultores da ModalGR. O usuário pode escolher o mês desejado e, se houver aniversariantes, um novo arquivo de texto é gerado com os dados dos aniversariantes.
 
-OBS: Também criei um tratamento para quando não existir aniversariantes no mês, aprensentando a informação "Nenhum aniversariante encontrado para o mês de {nome_mes}. Nenhum arquivo foi criado."
+OBS: Também criei um tratamento para quando não existir aniversariantes no mês, aprensentando a informação 'Nenhum aniversariante encontrado para o mês de {nome_mes}. Nenhum arquivo foi criado.'
 
 ## 03 - Simulação de Empréstimo
 
