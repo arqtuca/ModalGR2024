@@ -1,16 +1,9 @@
 from cryptography.fernet import Fernet
 import base64
 
-# Chave secreta
 chave_secreta = "#modalGR#GPTW#top#maiorEmpresaTecnologia#baixadaSantista"
-
-# Codificar a chave secreta em bytes
 chave_secreta_bytes = chave_secreta.encode()
-
-# Gerar um hash da chave secreta
 hash_chave_secreta = Fernet.generate_key()
-
-# Criar uma chave Fernet a partir do hash da chave secreta
 chave_fernet = Fernet(hash_chave_secreta)
 
 # Método 1: AES
